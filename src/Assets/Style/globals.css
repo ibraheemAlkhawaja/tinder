@@ -1,0 +1,15 @@
+:root{
+    --color-red : #008080 ;
+    --color-light :#FFFFFF ;
+    --color-dark :#666666 ;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}

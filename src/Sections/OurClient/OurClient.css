@@ -1,0 +1,44 @@
+.ourclient {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.ourclient .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourclient .title-ourclient{
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 69px;
+    color: var(--color-red);
+}
+.ourclient .img-ourclient{
+    width: 146px;
+    height: 146px;
+    margin: 15px 0px;
+}
+.ourclient .img-ourclient img{
+    width: 100%;
+    height: 100%;
+}
+@media  all and (max-width:776px ){
+    .ourclient {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    .ourclient .title-ourclient{
+        padding-left: 12px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+@media (min-width : 768px)and (max-width :1024px){
+    .ourclient .title-ourclient{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+}
